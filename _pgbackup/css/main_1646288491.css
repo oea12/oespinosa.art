@@ -337,7 +337,7 @@ body {
     text-transform: uppercase;
     color: #F3F3F3;
     margin-top: 3.7037vh;
-    max-width: 412px;
+    max-width: 278px;
 }
 
 .home__link {
@@ -2891,7 +2891,7 @@ body {
 .nav-widget__line-gold {
     position: absolute;
     height: 20%;
-    background-color: #4996e9;
+    background-color: #E9CF49;
     width: 2px;
     -webkit-transition: height .3s ease;
     transition: height .3s ease;
