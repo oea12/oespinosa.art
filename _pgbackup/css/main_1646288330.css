@@ -2962,6 +2962,7 @@ body {
 }
 
 .logo {
+    height: 100%;
 }
 
 @media screen and (max-width:619px) {
