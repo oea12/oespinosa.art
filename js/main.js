@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
             const anchors = ['home', 'cases', 'about', 'services', 'partners', 'awards', 'testimonials', 'blog', 'contacts']
-            const labels = ['home', 'Selected works', 'about me', 'services', 'My clients', 'awards', 'testimonials', 'My insights', 'get in touch']
+            const labels = ['Inicio', 'Trabajo Destacado', 'Acerca de mi', 'Programas', 'Mis clientes', 'Reconocimientos', 'Testimonios', 'Mis puntos fuertes', 'Ponte en contacto']
 
             function setLabel(index) {
                 const label = labels[index];
@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('preloader').style.display = 'none';
     }
 
-    
+
 
     setTimeout(disabledPreloader, 1200);
 
@@ -332,7 +332,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 minLength: 'My custom message about only minLength rule'
               },
               email: 'My custom message about error (one error message for all rules)'
-            },  
+            },
             },
         })
     }
