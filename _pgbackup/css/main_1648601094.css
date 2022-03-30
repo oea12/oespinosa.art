@@ -503,7 +503,6 @@ body {
     cursor: pointer;
     -webkit-transition: .3s ease;
     transition: .3s ease;
-    width: 170px;
 }
 
 @media (max-width: 767px) {
