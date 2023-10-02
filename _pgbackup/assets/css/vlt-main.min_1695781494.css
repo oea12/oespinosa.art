@@ -761,7 +761,6 @@
 ::selection {
     color: #fff;
     background-color: #116fb2;
-    width: 20% !important;
 }
 
 ::-moz-selection {
@@ -2106,9 +2105,7 @@ textarea:focus::-webkit-input-placeholder {
 
 .vlt-is--single-product .vlt-main p.large {
     font-size: 1.375rem;
-}
-
-::-webkit-scrollbar {
+}::-webkit-scrollbar {
     width: 5px;
 }
 
