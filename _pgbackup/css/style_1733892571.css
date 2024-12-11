@@ -2408,6 +2408,7 @@ content
 /* ----- brands ----- */
 .art-brand {
     width: 120px;
+    height: 120px;
     margin: 0 auto;
     display: block;
     margin-bottom: 30px;

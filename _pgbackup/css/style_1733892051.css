@@ -537,7 +537,6 @@ app marcup
     background-position: center;
     height: 400px;
     background-size: cover;
-    filter: blur(5px);
 }
 
 .art-top-bg .art-top-bg-overlay {
@@ -545,7 +544,7 @@ app marcup
     height: 100%;
     width: 100%;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 30, 40, 0.93)), color-stop(70%, rgba(30, 30, 40, 0.96)), color-stop(80%, rgba(30, 30, 40, 0.99)), to(#1e1e28));
-    background-image: linear-gradient(180deg, rgba(35, 35, 37, 0.87) 0%, rgba(35, 35, 37, 0.87) 70%, rgba(35, 35, 37, 0.98) 80%, #232325 100%);
+    background-image: linear-gradient(180deg, rgba(35, 35, 37, 0.58) 0%, rgba(35, 35, 37, 0.71) 70%, rgba(35, 35, 37, 0.94) 80%, #232325 100%);
 }
 
 /* ----- preloader ----- */
@@ -1772,7 +1771,6 @@ content
 .art-code {
     font-family: "Courier Prime", monospace;
     color: #fafafc;
-    height: 55px;
 }
 
 .art-code i {
@@ -2408,6 +2406,7 @@ content
 /* ----- brands ----- */
 .art-brand {
     width: 120px;
+    height: 120px;
     margin: 0 auto;
     display: block;
     margin-bottom: 30px;
